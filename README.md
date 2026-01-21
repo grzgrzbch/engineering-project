@@ -39,8 +39,8 @@ To replicate this setup, the following components are required:
 1.  **Dependencies:** Ensure the `U8g2` library is installed in your Arduino IDE or PlatformIO environment.
 2.  **Mac Address Configuration:** Update the `slave_mac` arrays in the Master firmware with the actual MAC addresses of your ESP32 boards.
 3.  **Flash Firmware:**
-    * Upload `Master_Controller.ino` to the central unit.
-    * Upload `Slave_Device.ino` to each peripheral unit.
+    * Upload `Master_Code` to the central unit.
+    * Upload `Slave_Code` to each peripheral unit.
 
 ## Author
 **Grzegorz Bach**
